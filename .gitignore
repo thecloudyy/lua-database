@@ -1,3 +1,34 @@
+# Batch files (local tools)
 updater.bat
+scan_unwanted.bat
+delete_unwanted.bat
+cleanup_backups.bat
+generate_lua_list.bat
+
+# Logs and temporary files
 *.log
 *.tmp
+*.bak
+*.cache
+
+# Scan reports (generated locally)
+scan_report.txt
+unwanted_files.txt
+
+# Backup directory
+backup/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Other
+*.old
+*.orig
